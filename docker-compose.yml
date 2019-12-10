@@ -1,0 +1,12 @@
+
+mywordpress:
+  image: wordpress
+  ports:
+     - 8000:80
+
+mydb:
+  image: mysql
+  ports: 
+     - 3300:3300
+  environment:
+
